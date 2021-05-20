@@ -1,0 +1,27 @@
+$default_color: grey;
+$brand_red: rgb(202, 42, 42);
+$brand_green: rgb(46, 201, 46);
+$brand_white: rgb(226, 226, 226);
+$default_btn_width: 100px;
+$deafult_subtitle_style: underline;
+
+h1, h3, p {
+    color: $default_color;
+}
+h3 {
+    text-decoration: $deafult_subtitle_style;
+}
+.bad {
+    background-color: $brand_red;
+    color: $brand_white;
+}
+.normal {
+    color: $default_color;
+}
+.good {
+    background-color: $brand_green;
+    color: $brand_white;
+}
+button {
+    width: $default_btn_width;
+}
