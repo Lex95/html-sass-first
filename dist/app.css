@@ -1,0 +1,25 @@
+h1, h3, p {
+  color: grey;
+}
+
+h3 {
+  text-decoration: underline;
+}
+
+.bad {
+  background-color: #ca2a2a;
+  color: #e2e2e2;
+}
+
+.normal {
+  color: grey;
+}
+
+.good {
+  background-color: #2ec92e;
+  color: #e2e2e2;
+}
+
+button {
+  width: 100px;
+}
